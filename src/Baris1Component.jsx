@@ -1,0 +1,50 @@
+import React from "react";
+
+export default function Baris1Component({ functionCekJawaban }) {
+  return (
+    <tr>
+      <td>
+        <label>1</label>
+        <input
+          id="1_1"
+          type="text"
+          maxLength="1"
+          onChange={functionCekJawaban}
+        />
+      </td>
+      <td>
+        <input
+          id="1_2"
+          type="text"
+          maxLength="1"
+          onChange={functionCekJawaban}
+        />
+      </td>
+      <td>
+        <label>2</label>
+        <input
+          id="1_3"
+          type="text"
+          maxLength="1"
+          onChange={functionCekJawaban}
+        />
+      </td>
+      <td>
+        <input
+          id="1_4"
+          type="text"
+          maxLength="1"
+          onChange={functionCekJawaban}
+        />
+      </td>
+      <td>
+        <input
+          id="1_5"
+          type="text"
+          maxLength="1"
+          onChange={functionCekJawaban}
+        />
+      </td>
+    </tr>
+  );
+}
